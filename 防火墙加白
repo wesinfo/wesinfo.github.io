@@ -1,0 +1,2 @@
+添加防火墙信息
+firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="x.x.x.x" port protocol="tcp" port="0-65535" accept";firewall-cmd --reload
